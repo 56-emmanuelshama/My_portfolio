@@ -1,0 +1,43 @@
+.header {
+  background-color: #1c2b4e;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* NAV layout control */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes icon left, links right */
+}
+
+/* ICON */
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* LINK STYLE */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: cyan;
+}
