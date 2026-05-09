@@ -1,4 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
 
+}
 
 .nav {
   display: flex;
@@ -14,6 +18,53 @@
  .nav-links{
   display: flex;
 gap: 35px;
-text-decoration: none;
-color: white;
+
+
  }
+ .nav-links li {
+text-decoration: none;
+ }
+.cardshama{
+  background-color: rgb(24, 23, 23);
+
+}
+
+.shama{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+
+}
+
+/* TEXT */
+.shama p{
+  color: white;
+  max-width: 400px;
+}
+
+/* FIRST IMAGE */
+.shama > img{
+  max-width: 40%;
+  max-height: 40%;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  border-radius: 40%;
+  
+}
+
+/* SECOND IMAGE (inside .sham) */
+.sham{
+  position: relative;
+}
+
+.sham img{
+  max-width: 60%;
+  height: auto;
+  padding: 50px;
+  position: absolute;
+  top: 60px;
+  left: -80px;   /* overlap effect */
+  z-index: 2;
+}
